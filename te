@@ -1,0 +1,4 @@
+IPV4=""
+if [[ ! -z "${IPV4}" ]]; then
+echo "Not 000"
+fi
