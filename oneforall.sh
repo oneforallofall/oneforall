@@ -29,6 +29,7 @@ IO='wget -qO- git.io/superbench.sh | bash'
 back_route='curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh'
 back_route_de='wget -qO- git.io/besttrace | bash'
 media='bash <(curl -L -s check.unlock.media)'
+tools_other='wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh'
 
 while true
 do
@@ -46,6 +47,7 @@ ${Red_font_prefix}9${Font_color_suffix} 流媒体解锁测试
 ${Red_font_prefix}10${Font_color_suffix} vless xtls 简单粗暴,下载神器跑满宽带
   (自己找运营商免流网址，填在手机端 ，有可能免流 )
 ${Red_font_prefix}11${Font_color_suffix} vless Grpc 开网页非常快 
+${Red_font_prefix}12${Font_color_suffix} 别人的工具箱，各种功能 自己探索去
 
 \r\n
 ")" choose
@@ -61,6 +63,7 @@ ${Red_font_prefix}11${Font_color_suffix} vless Grpc 开网页非常快
 		9) eval $media ;;
 		10) eval $xtls_http;;
 		11) eval $xray_grpc;;
+		12) eval $tools_other;;
 	 
 		*) echo "wrong input" ;;
 	esac
