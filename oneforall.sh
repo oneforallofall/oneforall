@@ -8,8 +8,9 @@ echo -e "# ${GREEN}TG群${PLAIN}: https://t.me/hijkclub"
 #echo -e "by 代码搬运工"
 
 
-apt install -y  aptitude apt-get  jq  dnsutils wget curl sudo  >/dev/null 2>&1
-aptitude  install  -y  jq  dnsutils wget curl   sudo >/dev/null 2>&1
+apt install -y  aptitude apt-get  jq  dnsutils wget curl sudo
+# >/dev/null 2>&1
+aptitude  install  -y  jq  dnsutils wget curl 
 apt-get  -y install  jq  dnsutils wget curl    sudo  
 
 dnf install -y bind-utils  >/dev/null 2>&1
