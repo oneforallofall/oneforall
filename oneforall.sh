@@ -49,6 +49,7 @@ ${Red_font_prefix}10${Font_color_suffix} vless xtls 简单粗暴,下载神器跑
   (自己找运营商免流网址，填在手机端 ，有可能免流 )
 ${Red_font_prefix}11${Font_color_suffix} vless Grpc 开网页非常快 
 ${Red_font_prefix}12${Font_color_suffix} 别人的工具箱，各种功能 自己探索去
+${Red_font_prefix}13${Font_color_suffix} 非常快的 hysteria2 
 
 \r\n
 ")" choose
@@ -65,6 +66,7 @@ ${Red_font_prefix}12${Font_color_suffix} 别人的工具箱，各种功能 自�
 		10) eval $xtls_http;;
 		11) eval $xray_grpc;;
 		12) eval $tools_other;;
+  		13) bash <(curl -fsSL  https://raw.githubusercontent.com/oneforallofall/oneforall/main/hysteria2.sh ) ;;
 	 
 		*) echo "wrong input" ;;
 	esac
