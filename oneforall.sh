@@ -16,6 +16,7 @@ apt-get  -y install  jq  dnsutils wget curl    sudo
 dnf install -y bind-utils  >/dev/null 2>&1
 yum install -y bind-utils >/dev/null 2>&1
 
+clear
 
 trojan='bash <(curl -fsSL  https://raw.githubusercontent.com/oneforallofall/oneforall/main/trojan-go.sh)'
 xray_grpc='bash <(curl -fsSL  https://raw.githubusercontent.com/oneforallofall/oneforall/main/xray_grpc.sh)'
